@@ -1,0 +1,6 @@
+#+TITLE: LuaPi
+#+AUTHOR: noisytoot
+* What is LuaPi?
+  A pi calculator written in Lua, using the Lebniz formula
+* How to run?
+  It runs faster in LuaJIT, and the shebang uses LuaJIT, but it can be run in Lua as well
