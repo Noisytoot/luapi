@@ -1,5 +1,10 @@
 #!/usr/bin/env luajit
 
+if arg[1] == nil then
+   print "luapi <number-of-times>"
+   os.exit(0)
+end
+
 local maxk = arg[1]
 local pi = 0
 local digit = 0
