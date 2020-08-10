@@ -2,11 +2,10 @@
 
 if arg[1] == nil then
    print "luapi <number-of-times>"
-   os.exit(0)
 elseif arg[1] == "version" then
-   print "LuaPi v1.0.0"
+   print "LuaPi v1.0.1"
 else
-   local maxk = arg[1]
+   local maxk = arg[1] - 1
    local pi = 0
    local digit = 0
    
